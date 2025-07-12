@@ -7,8 +7,7 @@ $username = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', 'Cc!@1122', 'blog');
-
+$db = mysqli_connect('localhost', 'root', '', 'blog');
 // REGISTER USER
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['reg_user'])) {
 

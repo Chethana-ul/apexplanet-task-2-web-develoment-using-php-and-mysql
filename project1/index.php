@@ -18,6 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<a href="user_list.php">View Users</a>
+
 
 <div class="header">
 	<h2>Home Page</h2>
